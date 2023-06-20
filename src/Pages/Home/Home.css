@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.home-page{
+    margin-top: 1rem;
+    flex: 4;
+}
+
+.home-widget{
+    display: flex;
+    flex-direction: row;
+    margin: 1.2rem;
+}

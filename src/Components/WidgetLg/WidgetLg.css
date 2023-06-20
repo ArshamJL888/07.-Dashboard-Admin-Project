@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.widget-lg {
+    flex: 2;
+    padding: 1.2rem;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.wiget-lg-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.widget-lg-table {
+    width: 100%;
+    border-spacing: 1.2rem;
+    margin-top: 1rem;
+}
+
+.widget-lg-table-header {
+    text-align: left;
+}
+
+/* 
+.widget-lg-table-row:nth-child(even) {
+    background-color: #F0F0F0;
+}
+
+.widget-lg-table-row:nth-child(odd) {
+
+    background-color: #FFFFFF;
+} */
+
+.widget-lg-table-user {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.widget-lg-table-user-img {
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 5rem;
+    object-fit: cover;
+    margin: 0.75rem;
+    margin-left: 0.5rem;
+}
+
+.widget-lg-tranaction-date,
+.widget-lg-transaction-amount {
+    font-weight: 350;
+}
+
+.widget-lg-btn {
+    display: flex;
+    align-items: center;
+    border: none;
+    outline: none;
+    border-radius: 0.5rem;
+    padding: 0.3rem 0.5rem;
+    cursor: pointer;
+}
+
+.Approved {
+    color: #3BB077;
+    background-color: #E5FAF2;
+}
+
+.Declined {
+    color: #D95087;
+    background-color: #FFF0F1;
+}
+
+.Pending {
+    color: #2A7ADE;
+    background-color: #EBF1FE;
+}

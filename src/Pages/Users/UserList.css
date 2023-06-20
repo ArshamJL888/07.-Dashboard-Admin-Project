@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.user-list {
+    flex: 4;
+    margin: 1.2rem;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.users-list-user {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.user-list-user-image {
+    width: 32px;
+    height: 32px;
+    border-radius: 10rem;
+    margin-right: 0.8rem;
+    object-fit: cover;
+}
+
+.link{
+    text-decoration: none;
+    color: #000000;
+}
+
+.user-list-edit{
+    border: none;
+    outline: none;
+    border-radius: 0.5rem;
+    padding: 0.4rem 0.8rem;
+    background-color: #3BB077;
+    margin-right: 1.2rem;
+    cursor: pointer;
+    color: #FFFFFF;
+    transition: all 0.15s ease-in;
+}
+
+.user-list-delete{
+    color: #F44336;
+    cursor: pointer;
+    transition: all 0.15s ease-in;
+}
+
+.user-list-edit:hover {
+    background-color: #00C853;
+}
+
+.user-list-delete:hover {
+    color: #D32F2F;
+}

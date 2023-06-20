@@ -1,0 +1,17 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.main-container{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  /* align-items: center; */
+  justify-content: space-between;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
